@@ -274,7 +274,7 @@ h4 {
 
 .hp-main-wrap {
   position: relative;
-  margin-top: -114px;
+  margin-top: -117px;
   z-index: 0;
   width: 100%;
   height: 100vh;
@@ -286,11 +286,15 @@ h4 {
 }
 .hp-main-wrap .main-bg-img {
   position: absolute;
-  top: 0;
+  top: -100%;
   left: 50%;
   transform: translate(-50%, 0);
   height: 100%;
   z-index: -1;
+  -webkit-animation: show-big-logo 2s ease-in;
+          animation: show-big-logo 2s ease-in;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 .hp-main-wrap .main-title {
   font-family: "Montserrat";
@@ -307,4 +311,32 @@ h4 {
 }
 .hp-main-wrap svg:hover path {
   stroke: #F0145A;
+}
+
+@-webkit-keyframes show-big-logo {
+  0% {
+    top: -100%;
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes show-big-logo {
+  0% {
+    top: -100%;
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
