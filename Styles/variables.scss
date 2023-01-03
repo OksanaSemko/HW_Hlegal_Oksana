@@ -150,14 +150,18 @@
         color: #4B28DE;
     }
 
-// HEADER
+                                        // HEADER
 .wrapper {
-   padding: 0 160px;
+    padding: 0 160px;
+    // width: 100%;
+    // max-width: 100%;
+    // overflow-x: hidden;
 }
 .gradient-supersoft {
    background: $gradient-supersoft;
    max-width: 1920px;
    width: 100%; 
+   overflow: hidden;
 }
 .header {
    display: flex;
