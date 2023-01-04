@@ -188,6 +188,9 @@ h4 {
   color: #FFFFFF;
   cursor: pointer;
 }
+.header .right-side .bottom-box a {
+  color: #FFFFFF;
+}
 .header .right-side .bottom-box .accent {
   color: #F0145A;
   text-decoration: underline;

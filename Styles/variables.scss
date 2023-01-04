@@ -153,9 +153,6 @@
                                         // HEADER
 .wrapper {
     padding: 0 160px;
-    // width: 100%;
-    // max-width: 100%;
-    // overflow-x: hidden;
 }
 .gradient-supersoft {
    background: $gradient-supersoft;
@@ -219,6 +216,9 @@
          line-height: 20px;
          color: $basic-white;
          cursor: pointer;
+         & a {
+            color: $basic-white;
+        }
          .accent {
             color: $accent; 
             text-decoration: underline;
