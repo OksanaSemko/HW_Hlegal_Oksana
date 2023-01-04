@@ -5,8 +5,10 @@ $('.title_sect-2').click(function () {
     // const tab = $('#${type}')
     const tab = $('#' + type)
     $('.right-box_sect-2').each(function () {
-        $(this).addClass('hide')
+        // $(this).addClass('hide')
+        $(this).fadeOut(0)
     });
-    tab.removeClass('hide')
+    tab.fadeIn(500)
+    // tab.removeClass('hide')
     currentTurget.addClass('hero')
 })

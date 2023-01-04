@@ -110,3 +110,55 @@
         }
     }
 }
+                                                // HP SECTION_3 
+.wrapper_sect-3 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .services {
+        display: inline-flex;
+        margin-bottom: 10px;
+    }
+    .caps-h3:hover {
+        color: $accent;
+        margin-right: 8px;
+    }
+}
+.container_section_3 {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 60px;
+    .card {
+        max-width: 485px;
+        width: 100%;
+    }
+    .card-img {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 30px; 
+       }
+    .card-title {
+        text-align: left;
+        margin-bottom: 15px;
+        white-space: break-spaces;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #24A3FF;
+    }
+    .card-discription {
+        text-align: left;
+        margin-top: 20px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: $basic-white;
+    }
+}
+

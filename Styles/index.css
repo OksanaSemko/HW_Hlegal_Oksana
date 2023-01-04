@@ -398,4 +398,56 @@ h4 {
   font-size: 19px;
   line-height: 30px;
   color: #FFFFFF;
+}
+
+.wrapper_sect-3 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.wrapper_sect-3 .services {
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+.wrapper_sect-3 .caps-h3:hover {
+  color: #F0145A;
+  margin-right: 8px;
+}
+
+.container_section_3 {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+.container_section_3 .card {
+  max-width: 485px;
+  width: 100%;
+}
+.container_section_3 .card-img {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.container_section_3 .card-title {
+  text-align: left;
+  margin-bottom: 15px;
+  white-space: break-spaces;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #24A3FF;
+}
+.container_section_3 .card-discription {
+  text-align: left;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=index.css.map */
