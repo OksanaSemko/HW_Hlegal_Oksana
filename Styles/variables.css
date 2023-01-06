@@ -122,10 +122,16 @@ h4 {
   padding: 0 160px;
 }
 
+.hide {
+  display: none;
+}
+
 .gradient-supersoft {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   max-width: 1920px;
   width: 100%;
+  overflow: hidden;
+  border-radius: 0px 0px 12px 12px;
 }
 
 .header {
@@ -186,6 +192,9 @@ h4 {
   line-height: 20px;
   color: #FFFFFF;
   cursor: pointer;
+}
+.header .right-side .bottom-box a {
+  color: #FFFFFF;
 }
 .header .right-side .bottom-box .accent {
   color: #F0145A;

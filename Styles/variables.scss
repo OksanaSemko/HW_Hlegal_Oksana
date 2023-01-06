@@ -26,6 +26,7 @@
     $gradient-red: linear-gradient(323.35deg, #F0145A 6.7%, #693264 70.36%);
     $gradient-supersoft: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%,);
     $gradient-red-text: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    $gradient-orange-bg: linear-gradient(0deg, #F48B30, #F48B30);
 
     // Font-weight
     $bold: 700;
@@ -150,14 +151,19 @@
         color: #4B28DE;
     }
 
-// HEADER
+                                        // HEADER
 .wrapper {
-   padding: 0 160px;
+    padding: 0 160px;
+}
+.hide {
+    display: none;
 }
 .gradient-supersoft {
    background: $gradient-supersoft;
    max-width: 1920px;
    width: 100%; 
+   overflow: hidden;
+   border-radius: 0px 0px 12px 12px;
 }
 .header {
    display: flex;
@@ -215,6 +221,9 @@
          line-height: 20px;
          color: $basic-white;
          cursor: pointer;
+         & a {
+            color: $basic-white;
+        }
          .accent {
             color: $accent; 
             text-decoration: underline;
