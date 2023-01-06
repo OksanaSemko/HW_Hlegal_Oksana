@@ -1,3 +1,4 @@
+        // TAB
 $('.title_sect-2').click(function () {
     const currentTurget = $(this)
     const type = currentTurget.data('type')
@@ -12,3 +13,9 @@ $('.title_sect-2').click(function () {
     // tab.removeClass('hide')
     currentTurget.addClass('hero')
 })
+
+                                            // SLIDER
+  $('.slider_sect_4').slick({
+    arrows: false,
+    dots: true
+  });

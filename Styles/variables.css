@@ -131,6 +131,7 @@ h4 {
   max-width: 1920px;
   width: 100%;
   overflow: hidden;
+  border-radius: 0px 0px 12px 12px;
 }
 
 .header {
