@@ -118,6 +118,12 @@ h4 {
   color: #4B28DE;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .wrapper {
   padding: 0 160px;
 }

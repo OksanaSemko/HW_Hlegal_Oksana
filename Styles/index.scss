@@ -239,84 +239,106 @@
 }
                                                 // HP SECTION_5
 .wrapper_sect-5 {
-    margin-top: 60px;
-    padding-left: -60px;
-    padding-right: -60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
     .caps-h3 {
         margin-bottom: 30px;
         text-align: center;
     }
 }
-.clients {
+.conteiner_clients {
+    max-height: 360px;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    // align-items: flex-start;
     flex-wrap: wrap;
-    // font-size: 0;
     .client_1 {
-        align-items: center;
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        border-radius: 12px 0px 0px 0px;
         background: #1C4280;
-        padding: 36px 106px;
-        // max-width: 430px;
-        // width: 100%;
-        // max-height: 120px; 
-        // height: 100%;
+        padding: 36px;
     }
     .client_2 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
         background: #143646;
-        padding: 44px 115px;
-        // max-width: 430px;
-        // width: 100%;
-        // max-height: 120px; 
-        // height: 100%;
+        padding: 44px;
     }
     .client_3 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
         background: $gradient-orange-bg;
-        padding: 38px 125px;
-        // max-width: 430px;
-        // width: 100%;
-        // max-height: 120px; 
-        // height: 100%;
+        padding: 38px;
     }
-    .Client_4 {
-        background: #9E4DC3;;
-        padding: 39px 125px;
-        // max-width: 430px;
-        // width: 100%;
-        // max-height: 120px; 
-        // height: 100%;
+    .client_4 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        border-radius: 0px 12px 0px 0px;
+        background: #9E4DC3;
+        padding: 39px;
     }
-    .Client_5 {
+    .client_5 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
         background: $gradient-orange-bg;
-        padding: 38px 128px;
+        padding: 38px;
     }
-    .Client_6 {
+    .client_6 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
         background: #E2E2E4;
-        padding: 36px 103px;
+        padding: 36px;
     }
-    .Client_7 {
+    .client_7 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
         background: #C71C36;
-        padding: 29px 146px;
+        padding: 29px;
     }
-    .Client_8 {
-        background: #1C4280;
-        padding: 36px 106px;
+    .client_8 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        background: #DCF3F9;
+        padding: 22px;
     }
-    .Client_9 {
-        background: #1C4280;
-        padding: 36px 106px;
+    .client_9 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        border-radius: 0px 0px 0px 12px;
+        background: #EAEAEA;
+        padding: 30px;
     }
-    .Client_10 {
-        background: #1C4280;
-        padding: 36px 106px;
+    .client_10 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        background: #282240;
+        padding: 38px;
     }
-    .Client_11 {
-        background: #1C4280;
-        padding: 36px 106px;
+    .client_11 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        background: #1D4568;
+        padding: 37px;
     }
-    .Client_12 {
-        background: #1C4280;
-        padding: 36px 106px;
+    .client_12 {
+        width: 25%;
+        display: inline-block;
+        text-align: center;
+        border-radius: 0px 0px 12px 0px;
+        background: #000000;
+        padding: 13px;
     }
 }
-
