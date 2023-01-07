@@ -5,6 +5,7 @@
     $main-alt: #46466E;
     $main-soft: #686887;
     $basic-white:#FFFFFF;
+    $basic-black: #000000;
 
     // Accent
     $accent: #F0145A;
@@ -83,7 +84,8 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 20px;
-        color: #323264;
+        color: #4B28DE;
+
     }
     .paragraph {
         position: absolute;
@@ -240,4 +242,8 @@
          }
       }
    }
+}
+                                        // FOOTER
+.footer {
+    height: 300px;
 }

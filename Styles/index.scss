@@ -338,7 +338,71 @@
         display: inline-block;
         text-align: center;
         border-radius: 0px 0px 12px 0px;
-        background: #000000;
+        background: $basic-black;
         padding: 13px;
+    }
+}
+                                                // HP SECTION_6
+.grey-bg {
+    background-color: $grey-bg;
+}
+.publications {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    .caps-h3 {
+        color: $active-regular;
+        margin-right: 8px;
+    }
+}
+.conteiner_sect-6 {
+    display: flex;
+    // flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+    max-height: 430px;
+    height: 100%;
+    .card {
+        background: $basic-white;
+        border-radius: 8px;
+        .wrap_card {
+            padding-left: 30px;
+            padding-right: 30px;
+            .title {
+                color: #24A3FF;
+                margin-top: 30px;
+                margin-bottom: 15px;
+                text-align: left;
+                // white-space: break-spaces;
+            }
+            .date {
+                margin-bottom: 15px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                text-align: left;
+                color: #B3B3BA;
+            } 
+            .divider {
+                width: 453.33px;
+                height: 4px;
+                background: $grey-separator;
+            }
+            .discription {
+                margin-top: 15px;
+                margin-bottom: 72px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;         
+                color: $basic-black;
+            }
+        }
+ 
     }
 }

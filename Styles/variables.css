@@ -45,7 +45,7 @@ h4 {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  color: #323264;
+  color: #4B28DE;
 }
 
 .paragraph {
@@ -210,4 +210,8 @@ h4 {
 .header .right-side .bottom-box :hover {
   text-decoration: underline;
   text-underline-offset: 6px;
+}
+
+.footer {
+  height: 300px;
 }/*# sourceMappingURL=variables.css.map */
