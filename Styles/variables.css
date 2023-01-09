@@ -212,6 +212,75 @@ h4 {
   text-underline-offset: 6px;
 }
 
-.footer {
-  height: 300px;
+footer .divider {
+  margin-top: 30px;
+  width: 1600px;
+  height: 2px;
+  background: #E6E6F0;
+}
+footer .dot {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 6px;
+  height: 6px;
+  background-color: #B3B3BA;
+  border-radius: 50%;
+}
+footer .top_rows {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .top_rows .adress li {
+  display: inline-flex;
+}
+footer .top_rows .adress .kyiv {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+}
+footer .top_rows .adress .on_map a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+footer .top_rows .patent {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #B3B3BA;
+}
+footer .bottom_rows {
+  margin-top: 21px;
+  margin-bottom: 30px;
+  display: inline-flex;
+  align-items: center;
+}
+footer .bottom_rows .phone {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #46466E;
+}
+footer .bottom_rows .e-mail a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24A3FF;
 }/*# sourceMappingURL=variables.css.map */
