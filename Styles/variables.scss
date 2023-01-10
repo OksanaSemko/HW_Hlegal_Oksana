@@ -76,7 +76,7 @@
         line-height: 17px;
         letter-spacing: 1px;
         text-transform: uppercase;
-        color: #323264;
+        color: $main-regular;
     }
     h4 {
         font-family: 'Montserrat';
@@ -161,6 +161,9 @@
                                         // HEADER
 .wrapper {
     padding: 0 160px;
+    @media (max-width: 1440px) {
+        padding: 0 60px; 
+    }
 }
 .hide {
     display: none;
