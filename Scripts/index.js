@@ -1,4 +1,4 @@
-        // TAB
+                                                // TABs
 $('.title_sect-2').click(function () {
     const currentTurget = $(this)
     const type = currentTurget.data('type')

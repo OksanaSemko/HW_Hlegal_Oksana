@@ -158,9 +158,12 @@
     justify-content: center;
 }
 
-                                        // HEADER
+                                        // START
 .wrapper {
     padding: 0 160px;
+    @media (max-width: 1540px) {
+        padding: 0 80px; 
+    }
     @media (max-width: 1440px) {
         padding: 0 60px; 
     }
@@ -170,87 +173,115 @@
 }
 .gradient-supersoft {
    background: $gradient-supersoft;
-   max-width: 1920px;
-   width: 100%; 
+   width: 100vw; 
    overflow: hidden;
    border-radius: 0px 0px 12px 12px;
 }
+                                        // HEDER
 .header {
-   display: flex;
-   justify-content: space-between;
-   padding-top: 50px;
-   position: relative;
-   z-index: 1;
-   .right-side {
-      .top-box {
-         display: flex;
-         gap: 6px;
-         align-items: center;
-         font-family: 'Montserrat';
-         font-style: normal;
-         font-size: 16px;
-         line-height: 20px;
-         color: $basic-white;
-         .lenguages {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    position: relative;
+    z-index: 3;
+    @media (max-width: 1543px) {
+        padding-left: 80px; 
+        padding-right: 80px;
+    }
+    .left-side {
+        @media (max-width: 938px) {
+            display: flex; 
+            align-items: center;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            margin-left: 40px;
+        }
+    }
+    .right-side {
+        @media (max-width: 938px) {
+            display: flex; 
+            flex-direction: column;
+            margin-left: -40px;
+            gap: 120px;
+            height: 100%;
+        }
+        .top-box {
             display: flex;
-            .lenguage {
-               width: 33px;
-               height: 25px;
-               @include center; 
-               border-radius: 8px;
-               font-weight: $bold;
-               cursor: pointer;
-               &.accent, &:hover {
-                  background-color: $accent;
-               }
+            gap: 6px;
+            align-items: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: $basic-white;
+            .lenguages {
+                display: flex;
+                    .lenguage {
+                    width: 33px;
+                    height: 25px;
+                    @include center; 
+                    border-radius: 8px;
+                    font-weight: $bold;
+                    cursor: pointer;
+                    &.accent, &:hover {
+                        background-color: $accent;
+                    }
+                }
             }
-         }
-         svg:hover path {
-            fill: $accent;
+            svg:hover path {
+                fill: $accent;
+            }
+            .namber-link a {
+                font-weight: $bold;
+                color: $basic-white;
+            }
+            .dot {
+                width: 6px;
+                height: 6px;
+                background-color: $grey-separator;
+                border-radius: 50%;
+            }  
         }
-         .namber-link a {
+        .bottom-box {
+            display: flex;
+            justify-content: right;
+            gap: 15px;
+            margin-top: 15px;
+            @media (max-width: 938px) {
+                margin-top: 0px;
+                justify-content: left;
+            }
+            font-family: 'Montserrat';
+            font-style: normal;
             font-weight: $bold;
+            font-size: 16px;
+            line-height: 20px;
             color: $basic-white;
-         }
-         .dot {
-            width: 6px;
-            height: 6px;
-            background-color: $grey-separator;
-            border-radius: 50%;
-         }  
-      }
-      .bottom-box {
-         padding-top: 18px;
-         display: flex;
-         justify-content: right;
-         gap: 15px;
-         font-family: 'Montserrat';
-         font-style: normal;
-         font-weight: $bold;
-         font-size: 16px;
-         line-height: 20px;
-         color: $basic-white;
-         cursor: pointer;
-         & a {
-            color: $basic-white;
+            cursor: pointer;
+            & a {
+                color: $basic-white;
+            }
+            .accent {
+                color: $accent; 
+                text-decoration: underline;
+                text-underline-offset: 6px;
+            }
+            :hover {
+                text-decoration: underline;
+                text-underline-offset: 6px;
+            }
         }
-         .accent {
-            color: $accent; 
-            text-decoration: underline;
-            text-underline-offset: 6px;
-         }
-         :hover {
-            text-decoration: underline;
-            text-underline-offset: 6px;
-         }
-      }
    }
 }
                                         // FOOTER
 footer {
     .divider {
         margin-top: 30px;
-        width: 1600px;
+        max-width: 1600px;
+        @media (max-width: 1440px) {
+            max-width: 1320px; 
+        }
         height: 2px;
         background: $grey-separator;
     }
