@@ -19,3 +19,10 @@ $('.title_sect-2').click(function () {
     arrows: false,
     dots: true
   });
+
+                                            // BURGER MENU
+$(document).ready(function () {
+    $('.burger_menu').click(function (event) {
+      $('.burger_menu,.bottom-box').toggleClass('active');
+    });
+});
