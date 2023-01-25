@@ -26,3 +26,9 @@ $(document).ready(function () {
       $('.burger_menu,.bottom-box').toggleClass('active');
     });
 });
+
+                                           // SLIDER-ABOUT
+ $('.slider-about').slick({
+  arrows: false,
+  dots: true
+});
